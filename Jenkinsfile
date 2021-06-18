@@ -6,6 +6,11 @@ pipeline {
                 echo 'building app!' 
             }
         }
+         stage('test') {
+            steps {
+                echo 'testing app!' 
+            }
+        }
     }
   
  
